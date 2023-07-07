@@ -131,7 +131,7 @@ DROP TABLE IF EXISTS `Medios_Prensa`;
 CREATE TABLE `Medios_Prensa` (
   `IDMedioPrensa` int(11) NOT NULL,
   `NombrePrensa` varchar(50) DEFAULT NULL,
-  `Fundacion` date DEFAULT NULL,
+  `Fundacion` year(4) DEFAULT NULL,
   `SitioWeb` varchar(200) DEFAULT NULL,
   `CiudadPrensa` varchar(100) DEFAULT NULL,
   `PaisPrensa` varchar(50) DEFAULT NULL,
