@@ -75,7 +75,7 @@ def insert():
             IDFundadores = input("IDFundadores: ")
             NombreFundador = input("NombreFundador: ")
 
-            query = f"INSERT INTO Fundadores (IDFundadores, NombreFundador) VALUES ('{IDFundadores}',{NombreFundador})"
+            query = f"INSERT INTO Fundadores (IDFundadores, NombreFundador) VALUES ('{IDFundadores}','{NombreFundador}')"
             cursor.execute(query)
             if (input("Inserte un 1 si quiere agregar un dato , 0 sino : ") == '1'):
                 Denuevo = True
